@@ -1,5 +1,21 @@
 /* CSS here */
 
-body{}
-img{max-width:500px}
-#grid{display:flex;}
+body{width:100%; margin:0; padding:0;}
+img{max-width:100%;}
+#grid{
+	display:flex; 
+	flex-wrap:wrap;
+	justify-content: space-between;
+	width:100%;
+}
+
+#grid > div{
+	width:30%;
+	display:flex;
+	margin:20px 0;
+	flex-direction:column;
+}
+
+header{width:80%; margin:0 auto;}
+header h1{padding-left:20%; max-width:400px;}
+article{max-width:600px; margin:5vh auto;}
