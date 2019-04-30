@@ -1,3 +1,5 @@
 /* CSS here */
 
 body{}
+img{max-width:500px}
+#grid{display:flex;}
