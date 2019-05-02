@@ -107,15 +107,15 @@ article p{font-size:17px; line-height:22px;}
 	flex-direction:column;
 	text-decoration: none;
 	color: black;
-	opacity: 1;
-}
-
-.grid a:hover {
-	
 }
 
 .grid > a p {
 	margin-bottom: 10px;
+	opacity: 1;
+}
+
+.grid > a p:hover, .col2 a:hover {
+	opacity: 0.7;
 }
 
 .grid > a p.date {
@@ -193,6 +193,18 @@ article p{font-size:17px; line-height:22px;}
 	line-height: 30px;
 }
 
+.contact-links, .applications {
+	font-size: 8px;
+	line-height: 24px;
+}
+
+.applications {
+	border-top: 1px solid slategray;
+}
+
+footer {border-top: 1px solid slategray;}
 footer ul{display:flex; justify-content: center;}
-footer li{display:inline-block; margin:0 20px;}
+footer li{display:inline-block; margin:0 20px; font-size: 12px;}
+footer li a{text-decoration: none; color: slategray;}
+footer li:hover{text-decoration: underline;}
 
