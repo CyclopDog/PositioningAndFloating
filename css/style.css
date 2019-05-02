@@ -5,7 +5,7 @@ img{max-width:100%;}
 
 header{width:80%; margin:0 auto; padding-top: 50px;}
 header h1{padding-left:20%; max-width:400px; font-style: italic;}
-
+ul{list-style: none; padding:0;}
 nav {
 	display: flex;
 	width: 100%;
@@ -70,7 +70,7 @@ nav img:hover {
 }
 
 article{max-width:600px; margin:5vh auto;}
-
+article p{font-size:17px; line-height:22px;}
 .grid{
 	display:flex; 
 	flex-wrap:wrap;
@@ -84,3 +84,44 @@ article{max-width:600px; margin:5vh auto;}
 	margin:20px 0;
 	flex-direction:column;
 }
+
+.bottom{
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+}
+.bottom h1{
+	font-size:16px;
+}
+.bottom .col1{width:68%;}
+.bottom .col2{width:28%;}
+.bottom .grid > div{
+	width:30%;
+	height:10vh;
+	background:red;
+}
+
+.top{border-top:1px solid black;}
+
+.links{padding:20px; font-family: sans-serif;}
+.links img{max-width:200px;}
+.links h1{font-size:16px; text-transform: uppercase;}
+
+.link-grid{
+	display:flex;
+	justify-content: space-between;
+}
+
+.link-grid > div{
+	width:15%;
+}
+
+.link-grid > div:last-child{
+	width:20%;
+	border-left:1px solid #eee;
+	padding-left:10px;
+}
+
+footer ul{display:flex; justify-content: center;}
+footer li{display:inline-block; margin:0 20px;}
+
