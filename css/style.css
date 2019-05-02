@@ -151,9 +151,14 @@ article p{font-size:17px; line-height:22px;}
 	font-size: 20px;
 }
 
+.container{
+	max-width:1280px;
+	margin:0 auto;
+}
+
 .top{border-top:1px solid black;}
 
-.links{padding:20px; font-family: sans-serif; border-top: 2px solid black;}
+.links{padding:20px; font-family: sans-serif; border-top: 2px solid #eee;}
 .links img{max-width:200px;}
 .links h1{font-size:16px; text-transform: uppercase;}
 
@@ -184,7 +189,8 @@ article p{font-size:17px; line-height:22px;}
 .link-grid > div:last-child{
 	width:20%;
 	border-left:1px solid #eee;
-	padding-left:10px;
+	padding-left:20px;
+	box-sizing:border-box;
 }
 
 .subscribe-links a {
@@ -199,10 +205,12 @@ article p{font-size:17px; line-height:22px;}
 }
 
 .applications {
-	border-top: 1px solid slategray;
+	border-top: 1px solid #eee;
 }
 
-footer {border-top: 1px solid slategray;}
+.applications li:first-child{margin-top:10px;}
+
+footer {border-top: 1px solid #eee;}
 footer ul{display:flex; justify-content: center;}
 footer li{display:inline-block; margin:0 20px; font-size: 12px;}
 footer li a{text-decoration: none; color: slategray;}
