@@ -1,0 +1,218 @@
+/* CSS here */
+
+body{width:100%; margin:0; padding:0;}
+img{max-width:100%;}
+
+header{width:80%; margin:0 auto; padding-top: 50px;}
+header h1{padding-left:20%; max-width:400px; font-style: italic;}
+ul{list-style: none; padding:0;}
+nav {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	height: 50px;
+	border-bottom: 1px solid #e2e2e2;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	box-sizing: border-box;
+}
+
+nav a{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	text-align: center;
+}
+
+nav img {
+	left: 15px;
+	width: 15px;
+	margin-right: 15px;
+}
+
+nav img:hover {
+	cursor: pointer;
+}
+
+.left-nav {
+	position: absolute;
+	left: 15px;
+}
+
+.left-nav a:hover{
+	text-decoration: underline;
+}
+
+.logo {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.right-nav {
+	position: absolute;
+	right: 15px;
+}
+
+.right-nav a{
+	background-color: #5B88A7;
+	color: white;
+	font-size: 12px;
+	padding: 10px 15px;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+
+.right-nav a:hover {
+	background-color: rgb(68, 100, 122);
+}
+
+article{max-width:600px; margin:5vh auto;}
+article p{font-size:17px; line-height:22px;}
+.grid{
+	display:flex; 
+	flex-wrap:wrap;
+	justify-content: space-between;
+	width:100%;
+}
+
+.grid > div{
+	width:30%;
+	display:flex;
+	margin:20px 0;
+	flex-direction:column;
+}
+
+.grid > div p {
+	margin-bottom: 10px;
+}
+
+.grid > div p.date {
+	font-size: 12px;
+	color: rgb(187, 187, 187);
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.bottom .grid > div{
+	margin-bottom: 0;
+}
+
+.grid > a{
+	width:30%;
+	display:flex;
+	margin:20px 0;
+	flex-direction:column;
+	text-decoration: none;
+	color: black;
+}
+
+.grid > a p {
+	margin-bottom: 10px;
+	opacity: 1;
+}
+
+.grid > a p:hover, .col2 a:hover {
+	opacity: 0.7;
+}
+
+.grid > a p.date {
+	font-size: 12px;
+	color: rgb(187, 187, 187);
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.bottom .grid > a{
+	margin-bottom: 0;
+}
+
+.bottom{
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+}
+.bottom h1{
+	font-size:16px;
+}
+.bottom .col1{width:68%;}
+.bottom .col2{width:28%;}
+
+.col2 li{
+	border-top: 1px solid rgb(196, 196, 196);
+	padding: 20px 0;
+}
+
+.col2 a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.container{
+	max-width:1280px;
+	margin:0 auto;
+}
+
+.top{border-top:1px solid black;}
+
+.links{padding:20px; font-family: sans-serif; border-top: 2px solid #eee;}
+.links img{max-width:200px;}
+.links h1{font-size:16px; text-transform: uppercase;}
+
+.link-grid{
+	display:flex;
+	justify-content: space-between;
+}
+
+.link-grid h1 {
+	font-size: 14px;
+}
+
+.link-grid a {
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+	line-height: 20px;
+}
+
+.link-grid a:hover {
+	text-decoration: underline;
+}
+
+.link-grid > div{
+	width:15%;
+}
+
+.link-grid > div:last-child{
+	width:20%;
+	border-left:1px solid #eee;
+	padding-left:20px;
+	box-sizing:border-box;
+}
+
+.subscribe-links a {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.contact-links, .applications {
+	font-size: 8px;
+	line-height: 24px;
+}
+
+.applications {
+	border-top: 1px solid #eee;
+}
+
+.applications li:first-child{margin-top:10px;}
+
+footer {border-top: 1px solid #eee;}
+footer ul{display:flex; justify-content: center;}
+footer li{display:inline-block; margin:0 20px; font-size: 12px;}
+footer li a{text-decoration: none; color: slategray;}
+footer li:hover{text-decoration: underline;}
+
